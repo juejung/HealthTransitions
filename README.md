@@ -13,6 +13,10 @@ Longitudinal Survey Data," Empirical Economics, forthcoming.
 
 Please cite this paper if these codes turn out to be useful for your research.
 
+This paper was formerly circulated as:
+- "Estimating Markov Transition Probabilities between Health States in the HRS Dataset" and 
+- "Estimating Transition Probabilities Between Health States Using U.S. Longitudinal Survey Data"
+
 Description
 ===========
 
