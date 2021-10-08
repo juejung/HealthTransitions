@@ -1,4 +1,4 @@
-Markov Health Transitions
+Health Transition Probabilities
 ===============================================================================
 
 - Author: Juergen Jung
