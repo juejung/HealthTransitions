@@ -1,14 +1,20 @@
 Markov Health Transitions
 ===============================================================================
 
-Author: Juergen Jung
-Towson University
-jjung@towson.edu
+- Author: Juergen Jung
+- Towson University, Department of Economics
+- Email: jjung@towson.edu
+- Web: https://juejung.github.io/
 
 This repository contains some of the replication codes for my paper:
 
-"Estimating Transition Probabilities Between Health States Using U.S.
-Longitudinal Survey Data," Empirical Economics, 2021
+Jung, Juergen (2021), "Estimating Transition Probabilities Between Health States Using U.S.
+Longitudinal Survey Data," Empirical Economics, forthcoming.
+
+Please cite this paper if these codes turn out to be useful for your research.
+
+Description
+===========
 
 In this project I estimate ologit (and oprobit) models of health state
 transition probabilities using a combined MEPS+HRS dataset so that the entire
@@ -19,11 +25,8 @@ Long and Freese (2014) SPost13 Stata commands are used heavily.
 
 References:
 
-- See: S. J. Long and J. Freese, Regression Models for Categorical Dependent Variables Using Stata, 3 ed. College Station, TX: Stata Press, 2014.
-
+- S. J. Long and J. Freese, Regression Models for Categorical Dependent Variables Using Stata, 3 ed. College Station, TX: Stata Press, 2014.
 - Web link: https://jslsoc.sitehost.iu.edu/spost13.htm
-
-
 
 One of the issues that arises is: 
 
