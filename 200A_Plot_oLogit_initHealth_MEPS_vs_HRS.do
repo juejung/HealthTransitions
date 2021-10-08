@@ -23,14 +23,6 @@
  Use mgen to generate predictions with confidence intervals for certain
  characteristics. That is we 'evaluate' the predictions at certain population
  characteristics.
-
- The default is to use the mean. The default for dummy variables is of course question-
- able. Nevertheless I used mean values of education dummies and whether people live
- in partnerships or not. Another way would be to make separate graphs for these sub-
- populations.
-
- This produces smoothers graphs over the age range, than the previous method, where
- we just predict and then report the mean for each age group.
  ----------------------------------------------------------------------------
 */
 // }}}1
@@ -167,7 +159,6 @@ xtset persID year
 sort persID year
 
 //}}}1
-/*
 // [3] Estimate Ordered Logit - reg F_healthStatusD healthStatus Xv  {{{1
 // ----------------------------------------------------------------------------
 // ologit using a lag health state variable in regression.
@@ -335,7 +326,6 @@ while (1) {
     if _rc == 0 continue, break
     sleep 10000  // Wait 10 seconds
 }
-*/
 // [5] Make Plots - Data Cleaning Program {{{1
 //-----------------------------------------------------------------------------
 
@@ -373,7 +363,6 @@ program define f_prepareData
     label variable age_hrsv "Age"
 end
 //}}}1
-
 // [5.A] Plot Adjustd Matrix - All: Graph MEPS and HRS vs. HRS-adjusted Markov Probabilities Separately {{{1
 //-----------------------------------------------------------------------------
 // You need to run the python script: Python/003_mainAdjustMarkovPeriodsDead.py
@@ -597,7 +586,6 @@ foreach from_status in "Excellent" "Very Good" "Good" "Fair" "Poor" {
     local h_from = `h_from' + 1
 }
 //}}}1
-*/
 // [5.D] Plot Adjusted Matrix - Smoker vs. Non-Smoker: Graph MEPS and HRS Probabilities Separately {{{1
 //-------------------------------------------------------------------------
 // You need to run the python script: Python/003_mainAdjustMarkovPeriodsDead.py

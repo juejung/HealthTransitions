@@ -23,14 +23,6 @@
  Use mgen to generate predictions with confidence intervals for certain
  characteristics. That is we 'evaluate' the predictions at certain population
  characteristics.
-
- The default is to use the mean. The default for dummy variables is of course question-
- able. Nevertheless I used mean values of education dummies and whether people live
- in partnerships or not. Another way would be to make separate graphs for these sub-
- populations.
-
- This produces smoothers graphs over the age range, than the previous method, where
- we just predict and then report the mean for each age group.
  ----------------------------------------------------------------------------
 */
 // }}}1
